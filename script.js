@@ -18,7 +18,7 @@ function validatename() {
 
         namerror.innerHTML = "Write Full Name"
         namerror.classList.remove("green")
-        return false  // false just shows that condition failed and is not met
+        return false  
     }
     namerror.innerHTML = "Valid"
     namerror.classList.add("green")
